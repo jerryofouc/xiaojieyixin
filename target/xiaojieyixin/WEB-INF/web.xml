@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>YixinRobotServlet</servlet-name>
+        <servlet-class>io.github.jerryofouc.YixinRobotServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>YixinRobotServlet</servlet-name>
+        <url-pattern>/yixin/check</url-pattern>
+    </servlet-mapping>
+
+</web-app>
